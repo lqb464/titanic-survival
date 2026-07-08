@@ -1,0 +1,54 @@
+{
+  "best_model": "logreg",
+  "survival_rate": 0.3838383838383838,
+  "n_train": 712,
+  "n_holdout": 179,
+  "accuracy_holdout": 0.8491620111731844,
+  "f1_holdout": 0.8029197080291971,
+  "leaderboard": [
+    {
+      "model": "logreg",
+      "Accuracy": 0.8491620111731844,
+      "F1": 0.8029197080291971
+    },
+    {
+      "model": "xgboost",
+      "Accuracy": 0.8156424581005587,
+      "F1": 0.7555555555555555
+    },
+    {
+      "model": "random_forest",
+      "Accuracy": 0.8212290502793296,
+      "F1": 0.7538461538461538
+    }
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.8738738738738738,
+      "recall": 0.8818181818181818,
+      "f1-score": 0.8778280542986425,
+      "support": 110.0
+    },
+    "1": {
+      "precision": 0.8088235294117647,
+      "recall": 0.7971014492753623,
+      "f1-score": 0.8029197080291971,
+      "support": 69.0
+    },
+    "accuracy": 0.8491620111731844,
+    "macro avg": {
+      "precision": 0.8413487016428193,
+      "recall": 0.8394598155467721,
+      "f1-score": 0.8403738811639199,
+      "support": 179.0
+    },
+    "weighted avg": {
+      "precision": 0.8487986014275859,
+      "recall": 0.8491620111731844,
+      "f1-score": 0.8489527699824875,
+      "support": 179.0
+    }
+  },
+  "n_test_predictions": 418,
+  "submission_path": "/home/lqb464/Documents/Projects/Data Scientist/titanic-survival/outputs/submission.csv"
+}
